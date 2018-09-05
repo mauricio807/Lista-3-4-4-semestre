@@ -15,7 +15,7 @@ public class Natal extends CartaoWeb{
    
     @Override
     public void retornarMensagem(String remetente) {
-        JOptionPane.showMessageDialog(null,"Feliz Natal! de: "+remetente+" para: "+getDestinatario()+"");
+        JOptionPane.showMessageDialog(null,"Feliz Natal! : "+remetente+" para: "+getDestinatario()+"");
     }
     
     public String getDestinatario() {
