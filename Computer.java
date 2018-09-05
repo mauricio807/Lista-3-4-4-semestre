@@ -23,7 +23,7 @@ public class Computer extends UtilizaTelecom Implements Interface {
                         System.out.println(isOn());
                     if (ativo()==true){
                         do{
-                        String messagePC= String.format("Informe o numero correspondente a operação que deseja realizar que deseja realizar:\n 1-mandar mensagem\n 2-Ver configurações do computador\n 3-Sair");
+                        String message= String.format("Informe o numero correspondente a operação que deseja realizar que deseja realizar:\n 1-mandar mensagem\n 2-Ver configurações do computador\n 3-Sair");
                         String select=JOptionPane.showInputDialog(messagePC);
                         switch(select){
                             case "1":
